@@ -1,0 +1,43 @@
+Introdução a criação de websites com HTML e CSS3
+Semântica (parte 1)
+<section> representa uma seção genérica de conteúdo, como uma lista de artigos
+<header>pode ser o cabeçalho de uma página ou parte de uma página, pode ser o cabeçalho de uma <section>
+<article>representa um conteúde relevante dentro da página, como o artigo de um blog
+<aside>representa um conteúdo relacionado ao conteúdo principal da página, como biografia do autor, links relacionados etc
+<footer>rodapé da página ou de parte da página
+<h1>até<h6>representa a importânica de um título dentro de uma página
+
+TAGS PARA TEXTOS
+<h1>Título da página</1>
+<h2>Título da seção</h2>
+<h3>Título de artigo</h3>
+<p>Conteúdo do artigo.</p>
+<a>Link</a>é uma âncora que interloga vários conteúdos na web
+< a href="link">LinkedIn</a> href é o hiperlink para onde a âncora está apontando
+<a href="link">Email</a>
+<a target="_blank">Link</a> target indica como esse link vai ser aberto, _blank abre em uma nova aba
+
+TAG IMG
+<img>
+<img src="">obrigatório, guarda o caminho da imagem
+<img alt="">recomendado para melhorar a sensibilidade, mostra a descrição da foto quando ela não é carregada
+
+LISTAS
+<ul> lista em que a ordem dos itens não é importante
+<ol> ordem dos itens é importante
+<li> item dessa lista
+
+CSS3
+Uma regra do CSS é que é formada por um grupo de seletores, que são apenas elementos html, dentro de um par de chaves {} temos as declarações formada por uma propriedade ou um valor
+ID x Classe podem representar qualquer tipo de elemento
+<header id="header" class="header"></header>
+<header class="header"</header>
+No CSS o class é precedido por "." e o id é precedido por "#", id só pode ser usado 1 vez na página.
+BOX MODEL
+Contém: margin(espaçamento entre elementos), border(circundam o padding e content, e gente consegue alterar a aparência delas), padding(espaçamento entre border e content), content(é o que o seu bloco representa, um texto, uma imagem ou um vídeo)
+
+ESTILIZANDO ELEMENTOS
+topo
+direita
+inferior
+esquerda
